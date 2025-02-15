@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'General sans';
+    box-sizing: border-box;
+}   
+#minicircle{
+    transition: all cubic-bezier(0.19,1,0.22,1) 1s;
+    width: 10px;
+    height:10px;
+    background-color: white;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+}
+.bounding{
+    width:fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.bounding h1{
+transform: translate(60%);
+}
+ html,body{
+    width:100%;
+    height: 00%;
+ 
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+#home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+#nav a{
+ color: rgb(230, 210, 210);
+ text-decoration: none;
+ font-size: 18px;
+}
+#content{
+    margin-top: 90px;
+}
+#content #sh{
+    margin-left: 136px;
+}
+.blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* background-color: red; */
+    width: fit-content;
+}
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1vw;
+
+}
+#content h1{
+  margin-left: 30px;
+    opacity: .6;
+    line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#smallheading{
+    margin-bottom: 200px;
+
+}
+#smallheading h5{
+text-transform: uppercase;
+margin-top: .5px;
+font-size: 1vw;
+
+    text-align: right;
+
+}
+
+#homefooter{
+    width: 100%;
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#homefooter a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* width: 2vw; */
+}
+
+#homefooter #iconsert{
+    display: flex;
+    gap: 5px;
+}
+#homefooter .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2vw;
+    height: 2vw;
+    background-color: #888;
+    border-radius: 50%;
+}
+ #second{
+    padding-right: 10vw;
+    width: 100%;
+    height: 100vh;
+ background-color: black;
+ padding-top:200px ;
+}
+ .elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    /* height: 100px; */
+    padding: 2vw 1vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+    justify-content: space-between;
+ }
+ .elem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    color: white;
+    opacity: .8;
+ }
+ .elemlast{
+    border-bottom: 1px solid #888;
+ }
+
+ .elem h5{
+    color: white;
+ }
+ 
+  .elem img {
+    height: 140%;
+    z-index: 999;
+    opacity: 0;
+    position: absolute; /* Make sure the image is positioned absolutely */
+    transition: opacity 0.5s ease;
+}
+
+ 
+ .about{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 50px;
+    padding-left: 30vw;
+    width: 100%;
+    /* height: 100vw; */
+    background-color: black;
+ }
+.about{
+    padding: 10vw;
+    width: 100%;
+    background-color: black;
+}
+#textabout{
+    width: 25rem;
+    /* background-color: aquamarine; */
+}
+#textabout{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+#textabout p{
+    color:white;
+    line-height: 1.7;
+    margin-bottom :30px ;
+}
+.about img{
+    width: 250px;
+    clip-path: circle();
+}
+#textabout a{
+    padding: 12px 12px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+#subscribe{
+    color: #fff;
+    background-color: black;
+    padding: 20px 30px;
+    padding-bottom: 3vw;
+}
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: .6;
+
+}
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: black;
+}
+#footerleft{
+    display: flex;
+    gap: 20px;
+}
+#footerleft {
+    display: flex;
+    gap: 20px;
+}
+#footerright{
+    display: flex;
+    gap: 30px;
+}
+#footer a{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+#footer h5{
+    color: #fff;
+}
